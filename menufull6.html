@@ -1,0 +1,626 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+ <title>Indian Restaurant</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+  <meta charset="utf-8">
+  <style>
+  html
+{ height: 100%;}
+
+*
+{ margin: 0;
+  padding: 0;}
+
+body
+{ font: normal .80em 'trebuchet ms', arial, sans-serif;
+  background: #FFF;
+  color: #555;}
+
+p
+{ padding: 0 0 20px 0;
+  line-height: 1.7em;}
+
+img
+{ border: 0;}
+
+h1, h2, h3, h4, h5, h6 
+{ color: #362C20;
+  letter-spacing: 0em;
+  padding: 0 0 5px 0;}
+
+h1, h2, h3
+{ font: normal 170% 'century gothic', arial;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;
+  color: #000;}
+
+h2
+{ font-size: 160%;
+  padding: 9px 0 5px 0;
+  color: #B48A7C;}
+
+h3
+{ font-size: 140%;
+  padding: 5px 0 0 0;}
+
+h4, h6
+{ color: #B48A7C;
+  padding: 0 0 5px 0;
+  font: normal 110% arial;
+  text-transform: uppercase;}
+
+h5, h6
+{ color: #888;
+  font: normal 95% arial;
+  letter-spacing: normal;
+  padding: 0 0 15px 0;}
+
+a, a:hover
+{ outline: none;
+  text-decoration: underline;
+  color: #B48A7C;}
+
+a:hover
+{ text-decoration: none;}
+
+blockquote
+{ margin: 20px 0; 
+  padding: 10px 20px 0 20px;
+  border: 1px solid #E5E5DB;
+  background: #FFF;}
+
+ul
+{ margin: 2px 0 22px 17px;}
+
+ul li
+{ list-style-type: circle;
+  margin: 0 0 6px 0; 
+  padding: 0 0 4px 5px;
+  line-height: 1.5em;}
+
+ol
+{ margin: 8px 0 22px 20px;}
+
+ol li
+{ margin: 0 0 11px 0;}
+
+.left
+{ float: left;
+  width: auto;
+  margin-right: 10px;}
+
+.right
+{ float: right; 
+  width: auto;
+  margin-left: 10px;}
+
+.center
+{ display: block;
+  text-align: center;
+  margin: 20px auto;}
+
+#main, #logo, #menubar, #site_content, #footer
+{ margin-left: auto; 
+  margin-right: auto;}
+
+#header
+{ background: #000;
+  border-bottom: 1px solid #3d3d3d;
+  height: 186px;}
+  
+#banner
+{  background: transparent url(banner.jpg) no-repeat;
+  width: 860px;
+  height: 180px;
+  margin-bottom: 20px;
+  border: 10px solid #DDD;}
+
+#logo
+{ width: 880px;
+  position: relative;
+  height: 140px;
+  background: #1d1d1d;}
+
+#logo #logo_text 
+{ position: absolute; 
+  top: 10px;
+  left: 0;}
+
+#logo h1, #logo h2
+{ font: normal 300% 'century gothic', arial, sans-serif;
+  border-bottom: 0;
+  text-transform: none;
+  margin: 0 0 0 9px;}
+
+#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover 
+{ padding: 22px 0 0 0;
+  color: #FFF;
+  letter-spacing: 0.1em;
+  text-decoration: none;}
+
+#logo_text h1 a .logo_colour
+{ color: #5E4238;}
+
+#logo_text a:hover .logo_colour
+{ color: #5E4238;}
+
+#logo_text h2
+{ font-size: 120%;
+  padding: 4px 0 0 0;
+  color: #B48A7C;}
+
+#menubar
+{ width: 872px;
+  height: 45px;
+  padding-right: 8px;
+  background: #2D2D2D;
+  border-top: 1px solid #3D3D3D;} 
+
+ul#menu
+{ float: right;
+  margin: 0;}
+
+ul#menu li
+{ float: left;
+  padding: 0 0 0 9px;
+  list-style: none;
+  margin: 8px 4px 0 4px;}
+
+ul#menu li a
+{ font: normal 100% 'trebuchet ms', sans-serif;
+  display: block; 
+  float: left; 
+  height: 20px;
+  padding: 6px 20px 5px 20px;
+  text-align: center;
+  color: #FFF;
+  text-decoration: none;
+  background: #5E4238;} 
+
+ul#menu li.selected a
+{ height: 20px;
+  padding: 6px 20px 5px 11px;}
+
+ul#menu li.selected
+{ margin: 8px 4px 0 13px;
+  background: #B48A7C;}
+
+ul#menu li.selected a, ul#menu li.selected a:hover
+{ background: #B48A7C;
+  color: #FFF;}
+
+ul#menu li a:hover
+{ color: #B48A7C;}
+
+#site_content
+{ width: 880px;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  padding: 0 0 10px 0;} 
+
+#sidebar_container
+{ float: left;
+  width: 224px;}
+
+.sidebar_top
+{ width: 222px;
+  height: 14px;
+  background: transparent url(side_top.png) no-repeat;}
+
+.sidebar_base
+{ width: 222px;
+  height: 14px;
+  background: url(side_base.png) no-repeat;}
+
+.sidebar
+{ float: right;
+  width: 222px;
+  padding: 0;
+  margin: 0 0 16px 0;}
+
+.sidebar_item
+{ background: url(side_back.png) repeat-y;
+  padding: 0 15px;
+  width: 192px;}
+
+.sidebar li a.selected
+{ color: #444;} 
+
+.sidebar ul
+{ margin: 0;} 
+
+#content
+{ text-align: left;
+  width: 620px;
+  padding: 0 0 0 5px;
+  float: right;}
+  
+#content ul
+{ margin: 2px 0 22px 0px;}
+
+#content ul li, .sidebar ul li
+{ list-style-type: none;
+  background: url(bullet.png) no-repeat;
+  margin: 0 0 0 0; 
+  padding: 0 0 4px 25px;
+  line-height: 1.5em;}
+
+#footer
+{ width: 100%;
+  font-family: 'trebuchet ms', sans-serif;
+  font-size: 100%;
+  height: 80px;
+  padding: 28px 0 5px 0;
+  text-align: center; 
+  background: #000;
+  border-top: 2px solid #2D2D2D;
+  color: #FFF;}
+
+#footer p
+{ line-height: 1.7em;
+  padding: 0 0 10px 0;}
+
+#footer a
+{ color: #FFF;
+  text-decoration: none;}
+
+#footer a:hover
+{ color: #B48A7C;
+  text-decoration: none;}
+
+.search
+{ color: #5D5D5D; 
+  border: 1px solid #BBB; 
+  width: 134px; 
+  padding: 4px; 
+  font: 100% arial, sans-serif;}
+
+.form_settings
+{ margin: 15px 0 0 0;}
+
+.form_settings p
+{ padding: 0 0 4px 0;}
+
+.form_settings span
+{ float: left; 
+  width: 200px; 
+  text-align: left;}
+  
+.form_settings input, .form_settings textarea
+{ padding: 5px; 
+  width: 299px; 
+  font: 100% arial; 
+  border: 1px solid #E5E5DB; 
+  background: #FFF; 
+  color: #47433F;}
+  
+.form_settings .submit
+{ font: 100% arial; 
+  border: 0; 
+  width: 99px; 
+  margin: 0 0 0 212px; 
+  height: 33px;
+  padding: 2px 0 3px 0;
+  cursor: pointer; 
+  background: #3B3B3B; 
+  color: #FFF;}
+
+.form_settings textarea, .form_settings select
+{ font: 100% arial; 
+  width: 299px;}
+
+.form_settings select
+{ width: 310px;}
+
+.form_settings .checkbox
+{ margin: 4px 0; 
+  padding: 0; 
+  width: 14px;
+  border: 0;
+  background: none;}
+
+.separator
+{ width: 100%;
+  height: 0;
+  border-top: 1px solid #D9D5CF;
+  border-bottom: 1px solid #FFF;
+  margin: 0 0 20px 0;}
+  
+table
+{ margin: 10px 0 30px 0;}
+
+table tr th, table tr td
+{ background: #3B3B3B;
+  color: #FFF;
+  padding: 7px 4px;
+  text-align: left;}
+  
+table tr td
+{ background: #E5E5DB;
+  color: #47433F;
+  border-top: 1px solid #FFF;}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 180px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+.menu-body {
+  max-width: 680px;
+  margin: 0 auto;
+  display: block;
+  color: rgb(92, 92, 92);
+}
+ 
+.menu-section {
+  margin-bottom: 80px;
+}
+ 
+.menu-section-title {
+  font-family: georgia;
+  font-size: 20px;
+  display: block;
+  font-weight:normal;
+  margin: 20px 0; 
+  text-align: Center;
+}
+ 
+.menu-item {
+  margin: 35px 0;
+  font-size: 15px;
+}
+ 
+.menu-item-name{
+  font-family: helvetica;
+  font-weight: bold;
+  border-bottom: 2px dotted rgb(213, 213, 213);
+}
+ 
+.menu-item-description {
+  font-style: italic;
+  font-size: .9em;
+  line-height: 1.5em;
+}
+ 
+.menu-item-price{
+  float: right;
+  font-weight: bold;
+  font-family: arial;
+  margin-top: -22px;
+}
+  </style>
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Indian<span class="logo_colour">Spicy TakeAway</span></a></h1>
+          <h2>Simble Of Quality</h2>
+        </div>
+      </div>
+      <div id="menubar">
+         <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li class="selected"><a href="index.html">Home</a></li>
+          <li><a href="examples.html">Menu</a></li>
+          <li><a href="page.html">Gallary</a></li>
+          <li><a href="another_page.html">Special Item</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <!-- insert your sidebar items here -->
+            <h3>consegna a domicilio gratis</h3>
+            <h4>con un ordine minimo di  15 euro</h4>
+            <h5>oltre 2 km</h5>
+            <p>take away anche su  prenotazione.<br /><a href="#">numero di telefono</a></p>
+            <p>329.46.31.309(wind)</p>
+            <p>366.22.83.473(tim)</p>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <h3>Trovaci su</h3>
+            <ul>
+              <li><a href="https://www.facebook.com/Indian-Spicy-TakeAway-107192800133071/" target=_>Facebook</a></li>
+              <li><a href="https://twitter.com/ifoods60" target=_>Twitter</a></li>
+              <!--<li><a href="#">link 3</a></li>-->
+              <!--<li><a href="#">link 4</a></li>-->
+            </ul>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <!--<h3>Search</h3>-->
+
+                 <h1>Mandaci una email:</h1>
+                <a href="https://mail.google.com/mail/" target=_>ifoods60@gmail.com</a>
+         
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+                <div class="menu-body">
+   <!-- Section starts: Appetizers -->
+   <div class="menu-section">
+      <h2 class="menu-section-title">Contorni</h2>
+      <!--<p>con tutti i secondi <span>in omaggio</span> una porzione di <span>riso basmati </span> o <span>patate al forno</span> + <span>samosa</span> + <span>bibita</span> lattina 330ml</p>-->
+      <!-- Item starts -->
+      <div class="menu-item">
+         <div class="menu-item-name">
+             Allo Palok     <!--chicken biriyani-->
+         </div>
+         <div class="menu-item-price">
+            €4.00            <!--price-->
+         </div>
+         <div class="menu-item-description">
+            Pasticcio di spinaci e patate con spezie<!--item  included-->
+         </div>
+      </div>
+      <!-- Item ends -->
+      <!-- Item starts -->
+      <div class="menu-item">
+         <div class="menu-item-name">
+            Vegetable Korma
+         </div>
+         <div class="menu-item-price">
+            €4.50
+         </div>
+         <div class="menu-item-description">
+            Verdure miste in salsa delicata  di panna , cacao  e farina di cocco          
+         </div>
+      </div>
+      <!-- Item ends -->
+      <!-- Item starts -->
+      <div class="menu-item">
+         <div class="menu-item-name">
+            Vegetable Curry
+         </div>
+         <div class="menu-item-price">
+             €4.00
+         </div>
+         <div class="menu-item-description">
+            Verdure miste e salsa indiana al curry
+      </div>
+
+        <div class="menu-item">
+         <div class="menu-item-name">
+            Chana Masala
+         </div>
+         <div class="menu-item-price">
+             €4.00
+         </div>
+         <div class="menu-item-description">
+            Ceci all'indiana in salsa speziata
+         </div>
+      </div>
+
+       <div class="menu-item">
+         <div class="menu-item-name">
+            Prawn Spinach
+         </div>
+         <div class="menu-item-price">
+             €7.00
+         </div>
+         <div class="menu-item-description">
+            Gamberi , spinaci  e patate con salsa ,speciale  indiana al curry
+         </div>
+      </div>
+
+       <div class="menu-item">
+         <div class="menu-item-name">
+            Baigun Bharta
+         </div>
+         <div class="menu-item-price">
+             €4.00
+         </div>
+         <div class="menu-item-description">
+           Pasticcio di melanzane con cipolla , piselli , coriandolo e spezie
+         </div>
+      </div>
+        <div class="menu-item">
+         <div class="menu-item-name">
+            Chana Dal
+         </div>
+         <div class="menu-item-price">
+             €3.00
+         </div>
+         <div class="menu-item-description">
+            Ceci all'indiana con cipolla e curry
+         </div>
+      </div>
+      
+        <div class="menu-item">
+         <div class="menu-item-name">
+            Dal Makhani
+         </div>
+         <div class="menu-item-price">
+             €4.00
+         </div>
+         <div class="menu-item-description">
+              Pasticcio di lenticchie con zenzero fresco e spezie
+         </div>
+      </div>
+
+        <div class="menu-item">
+         <div class="menu-item-name">
+            Motor Paneer
+         </div>
+         <div class="menu-item-price">
+             €6.50
+         </div>
+         <div class="menu-item-description">
+            Piselli cotti in salsa tradizionale indiana con cubetti di mozzarella
+         </div>
+      </div>
+
+        <div class="menu-item">
+         <div class="menu-item-name">
+            Palok Paneer
+         </div>
+         <div class="menu-item-price">
+             €5.50
+         </div>
+         <div class="menu-item-description">
+            Pistaccio di spinaci e cubetti di mozzarella (indiana) cotto in salsa d'aglio,zenzero,cardamomo fresco e pomodoro
+         </div>
+      </div>
+      <!-- Item ends -->
+   </div>
+       
+      <!-- Item ends -->
+   </div>
+   <!-- Section ends: Drinks -->
+   <a style="font-size:20px" href="menufull7.html">continua il menu </a>
+   <br>
+   <a style="font-size:20px" href="menufull5.html">indietro</a>
+</div>
+    
+    <!--<a href="menufull.html">for more menu please click here</a>-->
+    <!--<a href="menufull2.html">continue  menu </a>-->
+      </div>
+    </div>
+
+
+    <div id="content_footer"></div>
+  <div id="footer">
+      <p>tema modificato da @digitech-it</p>
+    </div>  </div>
+</body>
+</html>
